@@ -1,7 +1,8 @@
 ﻿{
-  "name": "n8n-railway",
+  "name": "n8n-telegram-bot",
   "version": "1.0.0",
   "description": "n8n with Telegram bot",
+  "main": "index.js",
   "scripts": {
     "start": "n8n start"
   },
@@ -9,6 +10,9 @@
     "n8n": "^1.45.0"
   },
   "engines": {
-    "node": ">=18.0.0"
-  }
+    "node": ">=20.19 <=24.x"
+  },
+  "keywords": ["n8n", "telegram", "automation"],
+  "author": "Your Name",
+  "license": "MIT"
 }
