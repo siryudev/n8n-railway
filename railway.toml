@@ -1,0 +1,10 @@
+﻿[deploy]
+buildCommand = "npm install"
+startCommand = "n8n start"
+
+[build]
+builder = "nixpacks"
+
+[[services]]
+name = "n8n"
+httpPort = 5678
